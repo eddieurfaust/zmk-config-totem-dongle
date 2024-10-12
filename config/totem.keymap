@@ -86,6 +86,11 @@
             bindings = <&kp MINUS>;
             key-positions = <11 10>;
         };
+
+        combo_activate_num_layer {
+            bindings = <&sl 4>;
+            key-positions = <33 36>;
+        };
     };
 
     keymap {
