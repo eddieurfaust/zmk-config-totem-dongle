@@ -89,7 +89,7 @@
 
         combo_activate_num_layer {
             bindings = <&sl 4>;
-            key-positions = <33 36>;
+            key-positions = <32 37>;
         };
     };
 
