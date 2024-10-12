@@ -115,10 +115,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W  &kp F  &kp M  &kp P  &kp V        &kp LS(NON_US_HASH)  &kp DOT  &none  &kp Y  &none
-       &kp R  &kp S  &kp N  &kp T  &kp B        &kp COMMA            &kp A    &kp E  &kp I  &kp H
-&none  &kp X  &kp C  &kp L  &kp D  &kp G        &none                &kp U    &kp O  &kp Z  &kp K  &none
-                     &none  &sl 2  &kp LSHFT    &kp SPACE            &sl 3    &none
+       &kp W  &kp F  &kp M  &kp P           &kp V    &kp LS(NON_US_HASH)  &kp DOT    &none  &kp Y  &none
+       &kp R  &kp S  &kp N  &kp T           &kp B    &kp COMMA            &kp A      &kp E  &kp I  &kp H
+&none  &kp X  &kp C  &kp L  &kp D           &kp G    &none                &kp U      &kp O  &kp Z  &kp K  &none
+                     &sl 2  &kp LEFT_SHIFT  &none    &none                &kp SPACE  &sl 3
             >;
         };
 
