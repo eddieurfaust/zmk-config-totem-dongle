@@ -56,6 +56,36 @@
             bindings = <&kp ENTER>;
             key-positions = <27 28>;
         };
+
+        combo_q {
+            bindings = <&kp Q>;
+            key-positions = <30 19>;
+        };
+
+        combo_j {
+            bindings = <&kp J>;
+            key-positions = <18 8>;
+        };
+
+        combo_ae {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <16 28>;
+        };
+
+        combo_oe {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <17 28>;
+        };
+
+        combo_ue {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <17 27>;
+        };
+
+        combo_sz {
+            bindings = <&kp MINUS>;
+            key-positions = <11 10>;
+        };
     };
 
     keymap {
