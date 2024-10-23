@@ -86,6 +86,18 @@
             bindings = <&sl 4>;
             key-positions = <32 37>;
         };
+
+        less-than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <2 12>;
+            layers = <3>;
+        };
+
+        greater-than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <7 17>;
+            layers = <3>;
+        };
     };
 
     keymap {
