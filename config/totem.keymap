@@ -98,6 +98,21 @@
             key-positions = <7 17>;
             layers = <3>;
         };
+
+        sch {
+            bindings = <&sch>;
+            key-positions = <11 22>;
+            layers = <0>;
+        };
+    };
+
+    macros {
+        sch: sch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp C &kp H>;
+            label = "SCH";
+        };
     };
 
     keymap {
