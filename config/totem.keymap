@@ -52,11 +52,6 @@
             key-positions = <1 2>;
         };
 
-        combo_return {
-            bindings = <&kp ENTER>;
-            key-positions = <27 28>;
-        };
-
         combo_q {
             bindings = <&kp Q>;
             key-positions = <30 19>;
@@ -163,10 +158,10 @@
 
         sym {
             bindings = <
-        &kp ESC            &kp RA(N7)             &kp RA(N8)        &kp LS(N8)        &kp RA(RIGHT_BRACKET)    &kp GRAVE  &kp LS(NUMBER_9)  &kp RA(NUMBER_9)  &kp RA(NUMBER_0)  &kp LS(EQUAL)
-        &kp SLASH          &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_0)  &kp LS(SLASH)     &kp LS(N4)               &kp NUHS   &sk LCTRL         &sk LEFT_SHIFT    &sk LEFT_ALT      &sk LEFT_GUI
-&trans  &kp RIGHT_BRACKET  &kp RA(NUBS)           &kp RA(Q)         &kp LS(NUMBER_7)  &kp LS(N5)               &none      &kp RA(MINUS)     &kp LS(NUMBER_6)  &kp LS(MINUS)     &kp LS(N1)     &trans
-                                                  &trans            &trans            &trans                   &trans     &trans            &trans
+        &kp ESC            &kp RA(N7)             &kp RA(N8)        &kp LS(N8)        &kp RA(RIGHT_BRACKET)    &kp GRAVE          &kp LS(NUMBER_9)  &kp RA(NUMBER_9)  &kp RA(NUMBER_0)  &kp LS(EQUAL)
+        &kp SLASH          &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_0)  &kp LS(SLASH)     &kp LS(N4)               &kp NUHS           &sk LCTRL         &sk LEFT_SHIFT    &sk LEFT_ALT      &sk LEFT_GUI
+&trans  &kp RIGHT_BRACKET  &kp RA(NUBS)           &kp RA(Q)         &kp LS(NUMBER_7)  &kp LS(N5)               &kp DOUBLE_QUOTES  &kp RA(MINUS)     &kp LS(NUMBER_6)  &kp LS(MINUS)     &kp LS(N1)     &trans
+                                                  &trans            &trans            &trans                   &trans             &trans            &trans
             >;
 
             label = "Symbol Layer";
