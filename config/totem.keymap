@@ -58,13 +58,13 @@
 
         combo_q {
             bindings = <&kp Q>;
-            key-positions = <30 19>;
+            key-positions = <27 29>;
             layers = <0>;
         };
 
         combo_j {
             bindings = <&kp J>;
-            key-positions = <18 8>;
+            key-positions = <18 29>;
             layers = <0>;
         };
 
@@ -94,7 +94,7 @@
 
         combo_activate_num_layer {
             bindings = <&sl 4>;
-            key-positions = <32 37>;
+            key-positions = <33 36>;
         };
 
         less-than {
@@ -112,6 +112,12 @@
         sch {
             bindings = <&sch>;
             key-positions = <11 22>;
+            layers = <0>;
+        };
+
+        letter_z {
+            bindings = <&kp Y>;
+            key-positions = <0 1>;
             layers = <0>;
         };
     };
@@ -147,9 +153,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W  &kp F  &kp M  &kp P  &kp V             &kp LS(N7)  &kp DOT  &kp LS(SLASH)  &kp LS(Y)  &kp LS(N8)
-       &kp R  &kp S  &kp N  &kp T  &kp B             &kp COMMA   &kp A    &kp E          &kp I      &kp H
-&none  &kp X  &kp C  &kp L  &kp D  &kp G             &none       &kp U    &kp O          &kp Z      &kp K       &none
+       &kp W  &kp F  &kp M  &kp P  &kp V             &kp LS(N7)  &kp DOT  &kp LS(SLASH)  &kp LS(NUMBER_2)  &kp LS(N8)
+       &kp R  &kp S  &kp N  &kp T  &kp B             &kp COMMA   &kp A    &kp E          &kp I             &kp H
+&none  &kp X  &kp C  &kp L  &kp D  &kp G             &none       &kp U    &kp O          &kp Z             &kp K       &none
                      &none  &sl 2  &kp LEFT_SHIFT    &kp SPACE   &sl 3    &none
             >;
         };
