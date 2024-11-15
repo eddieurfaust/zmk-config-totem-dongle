@@ -45,7 +45,7 @@
 
         combo_j {
             bindings = <&kp J>;
-            key-positions = <29 30>;
+            key-positions = <22 21>;
             layers = <0>;
         };
 
@@ -98,7 +98,7 @@
 
         letter_z {
             bindings = <&kp Y>;
-            key-positions = <22 21>;
+            key-positions = <22 24>;
             layers = <0>;
         };
     };
