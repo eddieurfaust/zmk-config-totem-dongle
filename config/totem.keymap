@@ -45,7 +45,7 @@
 
         combo_j {
             bindings = <&kp J>;
-            key-positions = <22 21>;
+            key-positions = <21 24>;
             layers = <0>;
         };
 
