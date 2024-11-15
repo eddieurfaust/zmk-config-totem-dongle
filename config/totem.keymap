@@ -79,13 +79,13 @@
         };
 
         less-than {
-            bindings = <&kp LESS_THAN>;
+            bindings = <&kp LS(COMMA)>;
             key-positions = <2 12>;
             layers = <3>;
         };
 
         greater-than {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp LS(PERIOD)>;
             key-positions = <7 17>;
             layers = <3>;
         };
@@ -134,10 +134,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W  &kp F  &kp M  &kp P  &kp V             &kp LS(N7)  &kp DOT  &kp LS(SLASH)  &kp LS(NUMBER_2)  &kp LS(N8)
-       &kp R  &kp S  &kp N  &kp T  &kp B             &kp COMMA   &kp A    &kp E          &kp I             &kp H
-&none  &kp X  &kp C  &kp L  &kp D  &kp G             &none       &kp U    &kp O          &kp Z             &kp K       &none
-                     &none  &sl 2  &kp LEFT_SHIFT    &kp SPACE   &sl 3    &none
+       &kp W  &kp F  &kp M  &kp P  &kp V             &kp SINGLE_QUOTE  &kp DOT  &kp LS(SLASH)  &kp SEMICOLON  &kp LS(NUMBER_2)
+       &kp R  &kp S  &kp N  &kp T  &kp B             &kp COMMA         &kp A    &kp E          &kp I          &kp H
+&none  &kp X  &kp C  &kp L  &kp D  &kp G             &none             &kp U    &kp O          &kp Z          &kp K             &none
+                     &none  &sl 2  &kp LEFT_SHIFT    &kp SPACE         &sl 3    &none
             >;
         };
 
