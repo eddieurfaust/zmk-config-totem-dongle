@@ -79,13 +79,13 @@
         };
 
         less-than {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp NON_US_BACKSLASH>;
             key-positions = <2 12>;
             layers = <3>;
         };
 
         greater-than {
-            bindings = <&kp LS(BACKSLASH)>;
+            bindings = <&kp LS(NON_US_BACKSLASH)>;
             key-positions = <7 17>;
             layers = <3>;
         };
